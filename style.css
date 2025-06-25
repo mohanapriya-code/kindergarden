@@ -968,12 +968,12 @@ margin: 15px;
     overflow-x: hidden;
 /*     padding: 20px; */
     left: 0;
-    width: 100%;
+    width: 90%;
 }
 .welcome h5{
     background-color: transparent;
     display: inline;
-    width: 90%;
+    width: 80%;
     left: 0px;
     top: 60px;
     color: rgb(133, 197, 125);
@@ -997,11 +997,11 @@ margin: 15px;
  .about{
         flex-direction: column;
      position: relative;
-     top:-20px;
+     top:-50px;
      }
 .about-img img{
     position: relative;
-        
+        margin-top:0px;
      }
      .about-content{
         width: 70%;
