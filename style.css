@@ -963,7 +963,7 @@ margin: 15px;
     background-size: 100% 80%;
     background-repeat: no-repeat; */
     background-color: transparent;
-    height: 100vh;
+    height: auto;
     display: inline;
     overflow-x: hidden;
 /*     padding: 20px; */
