@@ -973,7 +973,7 @@ margin: 15px;
 .welcome h5{
     background-color: transparent;
     display: inline;
-    width: 80%;
+    width: 90%;
     left: 0px;
     top: 60px;
     color: rgb(133, 197, 125);
@@ -996,8 +996,6 @@ margin: 15px;
 }
  .about{
         flex-direction: column;
-     position: relative;
-     top:30px
      }
 .about-img img{
     position: relative;
