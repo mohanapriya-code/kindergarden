@@ -997,7 +997,7 @@ margin: 15px;
  .about{
         flex-direction: column;
      position: relative;
-     top:-50px;
+     top:0px
      }
 .about-img img{
     position: relative;
