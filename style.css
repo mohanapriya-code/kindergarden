@@ -27,9 +27,9 @@ body{
     justify-content: center;
     align-items: center;
     position: fixed;
-    left: 1300px;
-    top: 550px;
-    float: right;
+    left: 95%;
+    top: 90%;
+    z-index: 9999;
     animation: arrow 1s infinite;
 }
 @keyframes arrow{
@@ -100,8 +100,8 @@ label i{
 }
 .welcome{
     align-items: center;
-    height:auto;
-    text-indent: 20px;
+    height:50%;
+    /* text-indent: 20px; */
     position: relative;
    animation: moved 1s linear 1;
 }@keyframes moved{
@@ -897,7 +897,7 @@ margin: 15px;
 
 
    
-@media screen and (max-width:600px){
+@media screen and (max-width:530px){
     body{
         background-color: rgb(146, 219, 219);
         background-image: none;
@@ -957,49 +957,51 @@ margin: 15px;
     }
     .welcome img{
         display: none;
-}.welcome{
-    /* top: 20px; */
-    /* background-image: url(./images/test.avif);
-    background-size: 100% 80%;
-    background-repeat: no-repeat; */
-    background-color: transparent;
-    height: 100vh;
-    display: inline;
-    overflow-x: hidden;
-/*     padding: 20px; */
+}
+ .welcome {
+    padding: 20px;
+    height: 50%;
+    text-align: center;
+    top: 20px;
+    position: relative;
+}
+
+.welcome h1 {
+    font-size: 36px;
+    top: 0;
     left: 0;
-    width: 100%;
+    position: static;
+    display: block;
+    margin-bottom: 10px;
 }
-.welcome h5{
-    background-color: transparent;
-    display: inline;
-    width: 90%;
-    left: 0px;
-    top: 60px;
-    color: rgb(133, 197, 125);
-    font-size: 24px;
+
+.welcome h5 {
+    font-size: 30px;
+    position: static;
+    display: block;
+    left: 0;
+    margin-bottom: 10px;
 }
-.welcome p{
-    left: 10px;
-    top: 100px;
+
+.welcome p {
+    font-size: 22px;
+    left: 0;
+    position: static;
+    display: block;
+    margin-bottom: 10px;
 }
-.welcome h1{
-  font-size: 45px;
-  display: inline;
-  left: 0px;
-  top: 70px;
-  background-color: transparent;
-  color: rgb(156, 4, 50);
-}
+
+ 
 .list{
     position: absolute;
 }
  .about{
         flex-direction: column;
+        margin-top: 50px;
      }
 .about-img img{
     position: relative;
-        margin-top:0px;
+        margin-top:130px ;
      }
      .about-content{
         width: 70%;
@@ -1008,7 +1010,8 @@ margin: 15px;
         left: -20px;
      }
      .about-content button{
-        left: -20px;
+        left:20px;
+        margin-bottom: 30px;
      }
      .facility{
         display: grid;
@@ -1039,8 +1042,8 @@ margin: 15px;
      left: 50px;
      }
      .admission-img img{
-        width: 450px;
-        right: 0;
+        max-width: 450px;
+        
      }
      .entroll{
         left: 15px;
@@ -1076,7 +1079,7 @@ margin: 15px;
      .card{
         position: relative;
         width: 80%;
-        height: 550px;
+        height: 500px;
         
      }
      .card-front p{
@@ -1234,6 +1237,7 @@ margin: 15px;
         position: relative;
         top: -30px;
         left: -10px;
+        display: block;
     }
   .footer{
     margin-top: 150px;
@@ -1254,14 +1258,15 @@ margin: 15px;
     height: 250px;
 }
   
-
- 
 .train{
     display: none;
 }
 .arrow{
     top:100hv;
-    left: 90%;
+    left: 80%;
+}
+#sen{
+    width: 400px;
 }
 }
 @media screen and (min-width:530px) and (max-width:2000px){
