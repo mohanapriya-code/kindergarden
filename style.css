@@ -996,6 +996,8 @@ margin: 15px;
 }
  .about{
         flex-direction: column;
+     position: relative;
+     top:-20px;
      }
 .about-img img{
     position: relative;
